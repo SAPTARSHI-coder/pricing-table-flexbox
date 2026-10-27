@@ -1,38 +1,51 @@
-# Pricing Table — Flexbox Layout
+# Responsive SaaS Pricing Table (CSS Flexbox)
 
-A responsive three-tier pricing table built with CSS Flexbox, demonstrating a common SaaS-style product pricing layout. The cards adapt from a horizontal row on wide screens to a vertical stack on narrow viewports via a single media query.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3 Flexbox](https://img.shields.io/badge/CSS3-Flexbox-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
+[![Responsive](https://img.shields.io/badge/Design-Responsive-brightgreen?style=for-the-badge)](https://developer.mozilla.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Overview
-
-Three pricing plans — Basic ($11.99/mo), Standard ($19.99/mo), and Premium ($49.99/mo) — are displayed as horizontally distributed cards. Each card lists a plan name, price, feature checklist, and a sign-up button. Below 1250px, the layout switches to a single-column vertical stack.
-
-## Tech Stack
-
-| Technology | Role |
-|---|---|
-| HTML5 | Semantic structure |
-| CSS3 + Flexbox | Card layout and responsive stacking |
-| Google Fonts (Sono) | Typography |
-
-## Project Structure
-
-```
-pricing-table-flexbox/
-├── index.html      — All HTML and CSS in a single file
-└── solution.html   — Reference implementation
-```
-
-## Getting Started
-
-Open `index.html` in any browser. An internet connection is needed to load the Google Font.
-
-## Key Concepts
-
-- `display: flex` for horizontal card distribution
-- `justify-content: center` and `gap` for spacing
-- `flex: 1` combined with `max-width` for equal-width constrained cards
-- `@media (max-width: 1250px)` to switch `flex-direction` to `column`
+A clean, modern three-tier SaaS pricing component engineered with pure semantic HTML5 and CSS Flexbox. Features highlighted recommended tier cards, smooth hover transitions, and a mobile-first responsive layout.
 
 ---
-*Part of the Antigravity project collection — Saptarshi Sadhu*
-"# pricing-table-flexbox" 
+
+## ✨ Features
+
+- **Pure CSS Flexbox Layout**: Centered card arrangement with adaptive flex wrapping (`display: flex`, `flex-wrap: wrap`, `gap`).
+- **Visual Tier Hierarchy**: Emphasizes the popular/recommended tier using subtle elevation, accent borders, and badge ribbons.
+- **Micro-Interactions**: Smooth scale transforms and box-shadow elevations on card hover.
+- **Zero Dependencies**: Lightweight, framework-free implementation with no JavaScript or third-party libraries required.
+- **Fully Responsive**: Stacks cleanly into a single vertical column on mobile devices while expanding gracefully on desktop displays.
+
+---
+
+## 🚀 Live Preview & Usage
+
+Simply open `index.html` in any modern web browser or embed the cards directly into your existing project:
+
+```bash
+# Clone the repository
+git clone https://github.com/SAPTARSHI-coder/pricing-table-flexbox.git
+cd pricing-table-flexbox
+
+# Open in default browser
+start index.html   # Windows
+# or open index.html on macOS
+```
+
+---
+
+## 📁 Project Structure
+
+```
+├── index.html            # Semantic markup with inline scoped flexbox styles
+└── project_overview.md   # Architectural breakdown and design decisions
+```
+
+---
+
+## 👨‍💻 Author
+
+**Saptarshi Sadhu**  
+- Website: [saptarshisadhu.co.in](https://saptarshisadhu.co.in/)  
+- GitHub: [@SAPTARSHI-coder](https://github.com/SAPTARSHI-coder)
